@@ -1,0 +1,47 @@
+body{
+    /* background-color: rgb(189, 189, 222); */
+    background-image: url("https://img.freepik.com/premium-vector/workspace-from-top-view-business_112769-34.jpg?size=626&ext=jpg&ga=GA1.1.1793590792.1703697548&semt=ais");
+}
+
+.header{
+    background-color: rgb(153, 194, 247);
+    /* height:40px; */
+    padding:20px;
+    text-align: center;
+     font-size: large;
+     position: fixed;
+     top:0;
+     width: 100%;
+     color: white; /* Set your desired text color */
+   
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for visual effect */
+     z-index: 1000;/* Set a high z-index to ensure it's on top of other elements */
+ 
+
+     
+}
+
+.flexcard
+{
+    display:flex;
+ 
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    margin-top: 120px;
+}
+
+.card{
+   
+    margin-left: 30px;
+margin-top: 30px;
+width: 300px;
+height: 350px;
+background-color: rgb(216, 234, 250);
+
+}
+
+ img{
+    height: 200px;
+    padding: 5px;
+ }
